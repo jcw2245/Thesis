@@ -1,0 +1,478 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thesis-Women's Basketball Graduation Trends</title>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-rendering: optimizeLegibility;
+    }
+
+    .content {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .header {
+      padding: 3em 0;
+    }
+
+    a {
+      color: #f05349;
+    }
+
+    .footer {
+      background: #f4f4f4;
+      text-align: center;
+      font-size: 0.8em;
+      margin-top: 4em;
+      padding: 4em 0;
+    }
+
+    figure {
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    figcaption {
+      font-size: 0.8em;
+      text-align: center;
+      margin-top: 0.5em;
+      color: #666;
+    }
+
+    h1 {
+      font-family: 'Lora', Georgia, serif;
+      font-weight: bold;
+      font-size: 3em;
+      line-height: 1.1;
+    }
+
+    .subhead {
+      font-family: 'Lora', Georgia, serif;
+    }
+
+    iframe,
+    img,
+    video {
+      max-width: 100%;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    ul {
+      margin: 0;
+      padding-bottom: 1em;
+      line-height: 1.6;
+    }
+
+    iframe {
+      padding-bottom: 1.2em;
+    }
+
+    .full-width figure {
+      text-align: center;
+    }
+
+    code {
+      font-family: 'Courier New', monospace;
+      background: #fff880;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        font-size: 18px;
+      }
+
+      .content {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+      .full-width figure {
+            text-align: center;
+        }
+
+        iframe,
+        img,
+        video {
+            max-width: 100%;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        ul {
+            margin: 0;
+            padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-bottom: 1.2em;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background: #fff880;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    </style>
+    <style>
+        .with-image-bg,
+        .with-video-bg {
+            position: relative;
+            background-size: cover;
+            margin-bottom: 2em;
+
+            min-height: 70svh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: white;
+            text-shadow: 0px 0px 30px black,
+                0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+.with-image-bg {
+  position: relative;
+  background-image: url('thenewyorkerpic.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  isolation: isolate;   
+}
+
+.with-image-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.40); 
+  z-index: 0;  
+  pointer-events: none;
+}
+
+.with-image-bg > .content {
+  position: relative;
+  z-index: 1;           
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.caption-white {
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,.7);
+  display: inline-block;
+  background: rgba(0,0,0,.25);  
+  padding: .35em .6em;
+  border-radius: .35em;
+}
+
+.caption-dark {
+  color: #333333;
+}
+
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .video-background video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        
+
+        .scrolly-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .sticky-thing {
+      position: sticky;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      z-index: 0;
+    }
+
+    .sticky-thing img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .steps-container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .step {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .step p {
+      background-color: rgba(207, 243, 243, 0.338);
+      padding: 2em;
+      font-size: 1.5em;
+      max-width: 600px;
+      text-align: center;
+      font-weight: bold;
+      color: black;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+    .caption {
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: #222;
+  font-weight: normal;
+}
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(207, 243, 243, 0.338); 
+  padding: 2em;
+  border-radius: 10px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+.methodology-box {
+  background-color: #f8f8f8;
+  border-left: 5px solid #aaa;
+  padding: 1em 1.5em;
+  margin: 4em auto 2em auto;
+  font-size: 0.85em;
+  max-width: 700px;
+  line-height: 1.5;
+  color: #333;
+}
+.methodology-box h3 {
+  margin-top: 0;
+  font-size: 1.1em;
+  color: #555;
+}
+
+}
+
+  </style>
+  <link href="scrolly-styles.css" rel="stylesheet">
+  <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.2.0/scrollama.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+</head>
+
+<body>
+
+  <div class="header with-image-bg">
+    <div class="content">
+        <h1>Eye on the Ball and Eye on the Diploma</h1>
+        <h2 class="subhead">More Than 90% of Women’s College Basketball Players are Graduating Despite the Allure of Rising Salaries at the Pro Level</h2>
+        <p class="caption-white">NCAA Final Four Game in 2024 | Photo by Morry Gash from AP</p>
+    </div>
+</div>
+ 
+<div class="content">
+  <div class="byline">
+      <p>By <a href="https://jcw2245.github.io/Portfolio/">Jaylynn Ward</a></p>
+  </div>
+  <p>Jada Gymafi’s days are like the fast breaks that run her up and down the basketball court.</p>
+  <p>For the University of Iowa senior athlete, there are training sessions and practices. Classes and studying. Games and traveling. And more of the same week after week. </p>
+  <p>But as she juggles daily challenges, Gyamfi is certain about one thing: she will graduate. She will set herself up with a career, in case the growing money she could make as a professional player does not pan out. </p>
+  <p>“Definitely when those nights came that I was like this sucks and I just don't want to do it anymore I thought like, well what do I have to complain about this is all for free and it's a great opportunity,” said Gyamfi. </p>
+
+<figure>
+  <img src="jadaphotothegazette.jpeg" alt="Photo of Jada Gymamfi and her team | Photo by Savannah Blake from The Gazette ">
+  <figcaption>
+   Photo of Jada Gymamfi and her team | Photo by Savannah Blake from The Gazette 
+  </figcaption>
+</figure>
+
+
+  <p>When she graduates after majoring in elementary education, she will join a growing portion of other female basketball players in the United States who also have their eyes set, not only on the ball, but also their diploma.</p>
+  <p>Despite the exploding interest in women’s basketball and the growing allure of six-figure salaries as a professional, women basketball players are graduating at record high levels.</p>
+  <p>An analysis of data maintained by the National Collegiate Athletic Association reveals that 94 percent of women basketball players in the NCAA’s leading division made it to graduation in the 2023-24 school year, the latest year of available data. That was up four percentage points from a decade earlier.</p>
+  <p>The trend holds despite questions among experts that the lure of the pro game will do to women athletes the same thing it did to men, leading to notable numbers leaving school without a degree.</p>
+
+<iframe title="Graduation Rates of Schools who won 60% or more of their games for the 2023-24 season" aria-label="Scatter Plot" id="datawrapper-chart-PL27j" src="https://datawrapper.dwcdn.net/PL27j/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="609" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+</script>
+
+<p>Not all schools have pristine graduate rates, as some struggle to make the grade. For example, just 40 percent of women basketball players graduated from Chicago State University in 2023-24 and only 64 percent got diplomas at Florida A&M.</p>
+<p>But three quarters of the Division women’s programs had rates above 90 percent in the 2023-24 year. In a cluster of schools, including Louisiana State University and the University of Connecticut, the rate reached a perfect 100 percent. </p>
+<p>The analysis, by the Columbia University School of Journalism, showed that elevated academic success rates were consistent across all success levels on the court, regardless of whether teams won or lost more of their games.</p>
+<p>Women also continue to do better than their male counterparts in basketball and football. While men, too, are graduating at higher levels than 10 years ago, overall rates from both sports remain between 80 percent and 90 percent.</p>
+<p>“This gap in terms of men and women has existed for decades,” said Ellen Staurowsky, a professor in sports media at Ithaca College. “Women tend to be better students, they tend to be better prepared for college, or that women in general, we have more women that are going to college who are having better experiences.” </p>
+
+
+<iframe title="GSR Average Ten Year Comparison Per Sport" aria-label="Grouped Bars" id="datawrapper-chart-FWJkh" src="https://datawrapper.dwcdn.net/FWJkh/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="267" data-external="1"></iframe>
+
+
+<p>Despite current success levels, Staurowsky said the popularity could have effects on graduation rates in the future.</p>
+<p>“The effect of high demand of sport, trying to deal with the demands of academics, women basketball players are not exempt from that,” said Staurowsky.</p>
+<p>From a school that has seen over 90 percent graduation rates for women’s basketball in the 2023-24 and 2013-14 season, Julie Goodenough says she has high expectations of her team. Goodenough, women’s basketball coach from Abilene Christian University for 14 years, said the challenge to get ballplayers through their athletic and academic requirements was daunting.</p>
+<p>“It is hard at the (Division 1) level,” said Goodenough. “We hold our players to really high standards and expect to have a championship level team every year, but we also expect them to excel in the classroom. Some players are able to do that and some struggle on one side or the other.”</p>
+<p>She said that she stressed the importance of academics, doing grade checks and making sure her athletes know about campus academic resources. The basketball program at this school also has a six-hour study hall per week for new players, which can only be shortened by having a grade-point average of more than 3.1.</p>
+<p>The continued academic success for collegiate women playing basketball comes as the popularity of the game has exploded over the past decade.</p>
+<p>The women's championship game drew more viewers than the men’s title game for the 2023-24 school year. According to the NCAA website, this game averaged 18.7 million viewers on ABC and ESPN on television. This broadcast peaked at 24 million viewers, making it the most watched women’s college basketball game on record and the most watched basketball game since 2019. </p>
+<p>Viewers were focused on schools with the best records, but also All-Star players. This includes players like Caitlin Clark, on Iowa Hawkeyes, and Kamilla Cardoso, on South Carolina Gamecocks, who were the star players of this championship game.</p>
+<p>“In each era, generationally, people discover this, kind of like it's the first time,” said Staurowsky. “The more you get exposed to something, especially in a mass medium, the more likely it is that more people are going to see this for what it is. What is interesting about this particular moment is the fact that we are in the midst of witnessing a tipping point.”</p>
+<p>The tipping point she discusses is how there is a more established group of people that are in the audience you can build on and media makes it easier to reach new audiences and new expectations.</p>
+<p>In the 2024-25 season, the national championship game between Florida and Houston averaged 18.1 million viewers on CBS and the women’s championship between the University of Connecticut and South Carolina averaged 8.5 million viewers. This season was the second-most-viewed women’s tournament on record from the Elite Eight games.</p>
+<p>Ticket sales for women’s collegiate basketball have also increased in recent years. According to the NCAA, in the 2024-25 season, the attendance for the entire championship was 351,777 people. The men's collegiate basketball overall tournament surpassed 700,000. The year prior, the Women’s Basketball Championship drew in over 436,000 people. This was the first time that the women’s championship has topped 400,000 people attending.</p>
+<p>The biggest revenue for the NCAA is currently television and marketing rights. A media rights agreement was struck between the NCAA and ESPN. It started in 2024 and will run through 2032. This agreement includes 40 NCAA championships, including women’s basketball. It consists of 21 women’s events and 19 men’s and exclusive coverages for select championships. This deal is estimated to be worth $115 million, or $920 million over the next eight years. This agreement did not include men’s basketball.</p>
+<p>“The behind the scenes investment in actually covering the game the way the men’s game has been covered for years, that cannot be ignored because the media is now making it a production of comparable magnitude,” said Staurowsky.</p>
+<p>ESPN’s production and operation team in the 2023-24 season decided to up the production of the championship game after the ratings in the Elite Eight for women’s college basketball. This company had its regular broadcast and its signature MegaCast along with several shows also appearing. ESPN used a total of 44 cameras distributed around the arena and other locations.</p>
+<p>“If you are hoping for a spectacular production, then you need to have an investment in creating this image that people can get excited about,” said Staurowsky. “The media is now making it a production of comparable magnitude. As a result of that we are seeing the kind of enthusiasm that we should see.” </p>
+<p>For the 2024-25 season, this production company decided to keep the same production as the year prior. This season, they had 50 cameras distributed and it also added 4k UHD (Ultra High Definition) for viewing.</p>
+<p>Men’s college basketball championship coverage agreement is through CBS Sports and Turner (a division of Time Warner) and will run through 2032 as well. This agreement was signed in 2016.</p>
+<p>It allows these production companies to provide live coverage of the championship games to their platforms. These production companies' platforms include TBS, CBS, TNT and truTV. Over the last six years, these platforms have averaged 10.2 million viewers in game telecasts. According to the NCAA, the total rights fee amounted to $8.8 billion. More than 90 percent of this revenue will go to college athletes, schools, championships and conferences.</p>
+<p>Amid the skyrocketing interest and money, the analysis found that 2023-24 graduation rates for women basketball players were eight percentage points higher than for men.</p>
+<p>For men’s college basketball athletes, the analysis found that less than half of the schools analyzed are reaching above 90 percent for their graduation rates.</p>
+<p>Both are up from ten years prior, in the 2013-14 season. Women college basketball athletes still held a great rate of graduation with 90 percent, four points down from where it stands now. Men’s college basketball athletes stood at just 75 percent during this time.</p>
+<p>Both rates were better than the other largely viewed and profitable sport, college football. For the two subdivisions, in FBS (Football Bowl Subdivision) is now at 83 percent while the FCS (Football Championship Subdivision) stands at 79 percent. This is a significant difference from the men’s basketball rate, which stands at almost 86 percent.</p>
+<p>The analysis further found that nine out of 10 women graduate from these schools regardless of how many games they win. Women’s rates for Division 1 schools, no matter their win-loss percentage, have held to be close on average, with the majority of the rankings above 90 percent.</p>
+<p><a href="https://jcw2245.github.io/ThesisRankings/">Visit</a> for the full rankings of women’s basketball.</p>
+
+<p>Gyamfi describes what it is like making the decision to become a student athlete. Before her decision to attend this university, she was unsure about being a student athlete because she knew of the demands, but she received an offer from her dream school and knew that it was a commitment she wanted to take. Even though it was her dream school, there were still several struggles along the way.</p>
+<p>“You are already going to have to sacrifice so much for athletics and road trips and the commitment there, but you have to give up a little bit more of that social, normal college life if you want to be successful academically as well,” said Gyamfi.</p>
+<p>Gyamfi discussed how student athletes also have to prepare for missing classes. She described how she had a night class that met once a week during game season, where she could not attend any class times. Instead, she had to rely on classmates to fill her in on what was happening, along with a constant conversation with the professor to understand the material and the class assignments.</p>
+<p>With the push for success in academics and on the court, Goodenough, the Abilene Christian coach, noted that students faced a tough balance between sport and studies.</p>
+<p>“I think it is possible to be excellent in the classroom and on the court, but it is a lot of work and it's a big commitment,” she said. “We have some players that are just here to play basketball so they just kind of get by in the classroom which, to me, is super frustrating and then we have others that are like straight A’s, but they are so wound up about ‘I have to make straight A’s’ that sometimes they suffer a little bit with attention to detail on the basketball court.”</p>
+<p>With media attention helping grow the popularity for college basketball, there is also a growing thought of going pro.</p>
+<p>“Money, fame or any type of external opportunities are motivators,” said Alan Chu, associate professor of applied sports psychology at University of North Carolina at Greensboro. “I think viewership, scholarships, they all play a role on top of the intrinsic factor.” </p>
+<p>Chu describes two different students: one going to college for a chance to go pro and another who understands that those chances are slim. It may be the people that provide support around them, like family and friends, the school that they go to or their stance on their sport that determines whether to push for the chance to go pro, he said.</p>
+<p>The one that leans against pushing to go professional is still motivated to perform well in the sport but is also looking for other opportunities, he said. </p>
+<p>He describes how this could also be a situation of gender roles as well, as women’s teams focus more on academics than men’s basketball teams. </p>
+<p>For a person to join the NBA, they have to be at least 19 years old and/or have completed their college eligibility. An early entry can happen by consulting the NCAA. For a player to join the WNBA, they have to be at least 22 years old and/or have completed their college eligibility. There is no early entry available in the U.S. for the WNBA. </p>
+<p>According to <a href="https://www.si.com/nba/whats-average-nba-salary-for-2024-25-season">Sports Illustrated</a>, the average NBA salary for this past season was almost $12 million. The NBA has significant differences in pay, with the minimum salary being over $1.1 million. At least 27 players were paid over $40 million this past season.</p>
+<p>For the <a href="https://www.si.com/wnba/highest-paid-wnba-players-now-and-all-time">WNBA</a>, the pay is drastically different. The minimum payment is $66,000. The maximum contract is $250,000. Some players of the WNBA do get paid more than the maximum amount, like Caitlin Clark, but this is due to endorsements and other business ventures. All players have the range of these contracts within the WNBA. </p>
+<p>“Worker salaries and labor markets are to some degree related to, not just how productive workers are, but the monetary value of the output too,” said Richard Paulsen, assistant professor of sports management at University of Michigan. “If you look at NBA salaries compared to WNBA salaries, we might expect NBA salaries to be higher, all else equal, because the NBA generates more revenue.”</p>
+<p>Currently, the WNBA players are pushing for a pay raise as the sport is generating more interest and revenue. Players are sporting t-shirts with the saying “Pay Us What You Owe Us”. According to an ESPN article, a hold up in negotiations is taking place as the league wants to have fixed percentages for salaries. The WNBA players want a different outcome of their salaries to increase with the business. </p>
+<p>There are other routes to being a professional athlete, including being an international player. This is a route for both men’s and women’s basketball. </p>
+<p>Zach Simmons, a 2021 graduate from University of North Texas, currently is an international professional basketball player for Budapesti Honved SE. He discussed how, in his college career, his teammates and himself took basketball very seriously while also taking academics seriously. </p>
+<p>“It was grueling,” said Simmons. “Student athletes in college are very serious about their sport so you are trying to find extra ways to get more work in, outside of your practices so you are really stretching yourself thin.” </p>
+<p>For Simmons, his decision to go pro relied on his love for the sport and the opportunity that it offered. For student athletes going to college, he recommends being prepared for the demand they will face and to prioritize their future.</p>
+<p>“Be ready, there are going to be some very tough nights, some long days, but embrace it all,” said Simmons. “It is really a place where you can grow, find yourself, and network and it is meant to be a good time, but you do have to prioritize what you value most.” </p>
+<p>Going professional is not the only way for an athlete to receive pay. In fact, athletes are now able to get compensation during their time in college. Name, Image and Likeness agreements are a way that college athletes are able to be paid while they are playing. College athletes can build a personal brand to receive NILs, which come in forms of sponsorships, endorsements, and other business routes.</p>
+<p>In June, a settlement was reached with the House v. the NCAA. This settlement ended three federal antitrust lawsuits that concerned the NCAA was limiting the earning power of college athletes illegally. Judge Claudia Wilken approved the deal for the NCAA to pay nearly $2.8 billion, according to an <a href="https://www.espn.com/college-sports/story/_/id/45467505/judge-grants-final-approval-house-v-ncaa-settlement">ESPN article</a>. This is for the past damages from 2016 to June 2025. </p>
+<p>This decision allows for schools to compensate their athletes directly, with the maximum amount being set at around $20.5 million per institution. This will start in the 2025-26 school year and could increase every year. This compensation will be separate funds than scholarships and other benefits that the school might give to their athletes already. The money that the NCAA owes for this settlement is reflected in their most recent <a href="https://ncaaorg.s3.amazonaws.com/ncaa/finance/2023-24NCAAFIN_FinancialStatement.pdf">financial statement</a>. </p>
+<p>NILs create new ways for athletes to be compensated, but it can also have potential negative effects. It could change athletic pressure and change future funding. It could also change how the athlete manages their time and academics.</p>
+<p>“There is the question of, like, to what extent does NIL make the student athlete even less student than they were before,” said Paulsen.  “It is already the case that student athletes spend a ton of time on their sport and not on their studies because of the dual time commitments, but then you add the additional time commitment that comes with needing to do things for your endorsement money, which may make it even harder to complete your classes and graduate.”</p>
+<p>Paulsen describes how the negative effects could also affect conference realignment, which would affect how much a student athlete can attend class as they would potentially have to travel more. He also pointed out that there are positive effects as well, like student athletes not having to have jobs on top of their commitments, allowing them to focus on their studies and graduating.</p>
+<p>While there are both negative and positive effects to NILs, it is too soon to know exactly how it will affect the industry, according to experts.</p>
+<p>The NCAA tracks the amount of students that graduate from each school in a division. According to the NCAA website, since 2002, the Graduation Success Rate (GSR) has increased from 74 percent to 91 percent for athletes overall. This organization created Division I academic reforms over two decades ago. These modifications involved:</p>
+<ul>
+    <li>initial-eligibility requirements</li>
+    <li>Progress-toward-degree-standards</li>
+    <li>Application of the Academic Performance Program (a long-term observance of overall students and demographics)</li>
+</ul>
+<p>The NCAA requirements to integrate both academics and athletics together, while having a push towards graduation rates, are different per division. For these requirements, a student must complete a certain amount of hours or credits per year or even semester for their eligibility. For most of these rules, there are waivers that a student can complete to recover their academic progress. The school is required to submit a recovery plan on their behalf. </p>
+<p>Even with these requirements, there are still ways that schools have found to ensure that their students meet these requirements to be able to perform in the past. These ways may not have benefited the individual students at the time.</p>
+<p>“There was a controversial case of the University of North Carolina back in the 2010s where athletes were basically involved in bogus classes and the point of that was to keep them eligible in order to compete in their sport,” said Staurowsky. “Whatever kind of percentages we see for both men and women, we at least have to raise the question about whether or not those numbers are as solid as what we think they are.”</p>
+<p>The case Staurowsky referred to was the University of North Carolina creating courses in the Department of African and Afro-American Studies. According to <a href="https://www.espn.com/college-sports/story/_/id/21008004/north-carolina-tar-heels-avoid-major-sanctions-academic-fraud-case">ESPN</a>, these classes often required no attendance and had just one paper at the end of the semester. Grade changes also appeared. This institution was not sanctioned as these classes were also offered to other students, not just the athletes attending.</p>
+<p>Experts have also said that grade inflation for students, especially athletes, could have the potential to change graduation rates for athletes. These factors show that it is hard to know for sure what is happening at every institution and that some graduation rates could reflect a different set of standards set. It is difficult to balance both academics and athletics, especially with some prioritizing performance.</p>
+<p>Title IX has also affected how student athletes can participate and perform in their sport. Title IX, according to experts, has helped bridge the gap with student athlete participation in relation to gender, but it does not cover all factors that could influence how well each sport performs.</p>
+<p>“Title IX helped close the gap between how many players there are. Pre-Title IX there were fewer female college athletes and even high school athletes that were women,” said Paulsen. “Title XI requires equal opportunities for participation, Title XI requires equal spending on scholarships, Title IX doesn’t require equal investment in men’s and women’s sports.”</p>
+<p>Title XI prohibits discrimination against a person’s gender for programs that have federal funding within education. It has helped with equal opportunities within sports for women, but there are still several factors that Title XI cannot address within the sport’s field.</p>
+<p>The multiple factors affecting student athletes filter down the players like Gyamfi, who says she will stick with her studies no matter what.</p>
+<p>“This is a decision that could completely alter your life, so knowing that, if you stay committed to it, I think the reward is a lot bigger than the risk,” said Gyamfi. “Your education is really important.”</p>
+
+  <div class="content">
+    <div class="byline">
+        <p>By <a href="https://jcw2245.github.io/Portfolio/">Jaylynn Ward</a></p>
+    </div>
+
+    <div class="methodology-box">
+      <h3>Methodology</h3>
+      <p>
+        For my data analysis, I scraped the NCAA graduation rates data from their website. I pulled the information that they display for each school and pulled the PDF’s using tools like Playwright. I pulled this information for Division I and Division II for the 2023-24 school year and Division I and Division II for the 2013-14 school year. After pulling this information, I worked on extracting the information within the PDFs.</p>
+      <p>To work on the PDFs, I started with PDFPlumber, which did some of the work, but did not successfully pull all the information that I needed. I then switched to using the NaturalPDF tool. With this tool I was able to create separate boxes around each section that I need and pull it with a few fixes here and there to get the columns to correctly align and pull all the information I needed. The information I pulled was the entirety of the first three pages which included:</p>
+      <ul>
+        <li>The top table located in page one with graduation percentages</li>
+        <li>The student information located on the rest of page one</li>
+        <li>The player information located on page two</li>
+        <li>The graduation rates for each sport located on page three</li>
+      </ul>
+      <p>I ran this for the 353 schools within Division I for each year and the schools within Division II. Once I had this information, I went to work on extracting the records from a sports fan website. It held both college and professional records. Because of the time allotted, I focused on the records and analysis for Division I only. From this, I was able to successfully get data of men’s basketball records and women’s basketball records for each year analyzed. I also extracted football records. With these records I had to manually input each column I needed from the records data, which included the games won, the games lost, and the win loss percentage. This was done manually as there were several schools with similar names or schools that had other names that needed to be paired together. To ensure that I had the most schools I could compare and the correct records, I matched them in Google Sheets by a simple copy and paste. Once these were added together, I was able to insert these into Pandas in Jupyter Notebook to create another column I needed to see if records had any changes on how many student athletes graduated.</p>
+      <p>Once added in Pandas, I created a ranking category that divided the schools into five categories, based off of their win loss percentage. I then calculated the averages and median for each category of the datasets. I also calculated how many schools received over a certain graduation percentage, looked at how many schools were at 100% graduation rate, and other information that I needed to know. All of the data and merging that I did manually was through Google Sheets, where I put together some information from different pages and needed overall numbers from these pages quickly.</p>
+      <p>Some schools did not have records for their schools located on this website, like Fairleigh Dickinson University Metropolitan Campus, and these were not included in the rankings. The ones not included within the ranking list to see the records data, were still included in the overall GSR averages within the story if they had this information available within the PDFs. Besides the charts of the records and the numbers containing the records, all schools were recognized. 98-100% of the schools were recognized within the records as well.</p>
+    </div>
+    <div class="content">
+      <div class="byline">
+          <p><a href="https://github.com/jcw2245/Endangered_Animals-">GitHub Repo For the Piece's Details</a></p>
+      </div>
+</div>
+<script>
+  const scroller = scrollama();
+
+  scroller
+    .setup({
+      parent: document.querySelector("#scrolly-images"),
+      step: ".step",
+      offset: 0.6,
+      debug: false
+    })
+    .onStepEnter(({ index }) => {
+      const images = [
+        "flower.jpg",
+        "butterfly.jpg",
+        "crane.jpg",
+        "fox.jpg",
+        "whale.jpg"
+      ];
+      document.getElementById("scrolly-image").src = images[index];
+    });
+
+  window.addEventListener("resize", scroller.resize);
+</script>
+<style>
+  
+</style>
+
+</body>
+
+</html>
