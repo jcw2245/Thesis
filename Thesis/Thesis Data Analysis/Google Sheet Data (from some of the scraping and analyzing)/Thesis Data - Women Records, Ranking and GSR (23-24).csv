@@ -1,0 +1,346 @@
+School,Latitude,Longitude,GSR,GSR Percentage ,School_2,Overall G,Overall W,Overall L,Overall W-L%
+Abilene Christian University,32.4700922,-99.7080103,100-c,1,Abilene Christian,30,14,16,0.467
+Alabama A&M University,34.7838409,-86.5722237,80-c,0.8,Alabama A&M,31,15,16,0.484
+Alabama State University,32.3626319,-86.2934411,88-d,0.88,Alabama State,29,3,26,0.103
+Alcorn State University,31.8741511,-91.1365733,72-d,0.72,Alcorn State,32,12,20,0.375
+American University,38.9380155,-77.088922,92-c,0.92,American,30,10,20,0.333
+Appalachian State University,36.2135628,-81.6843218,100-c,1,Appalachian State,32,17,15,0.531
+Arizona State University,33.4229975,-111.9278306,100-b,1,Arizona State,31,11,20,0.355
+Arkansas State University,35.8430861,-90.6748589,84-d,0.84,Arkansas State,30,13,17,0.433
+Auburn University,32.5980549,-85.4942667,100-c,1,Auburn NCAA,32,20,12,0.625
+Austin Peay State University,36.53498,-87.3548855,94-d,0.94,Austin Peay,33,17,16,0.515
+Ball State University,40.2024944,-85.4058241,100-c,1,Ball State,34,28,6,0.824
+Baylor University,31.5500848,-97.11354,100-c,1,Baylor NCAA,34,26,8,0.765
+Belmont University,36.1329081,-86.7941702,93-c,0.93,Belmont,35,26,9,0.743
+Bethune-Cookman University,29.2109815,-81.0314411,92-c,0.92,Bethune-Cookman,31,15,16,0.484
+Binghamton University,42.0971204,-75.9116546,100-c,1,Binghamton,31,14,17,0.452
+Boise State University,43.6023364,-116.2009765,100-c,1,Boise State NCAA,35,21,14,0.6
+Boston College,42.3355488,-71.1684945,91-c,0.91,Boston College,33,14,19,0.424
+Boston University,42.3504997,-71.1053991,100-c,1,Boston University,32,20,12,0.625
+Bowling Green State University,41.3796927,-83.6300592,100-c,1,Bowling Green State,31,16,15,0.516
+Bradley University,40.6977743,-89.6153484,100-c,1,Bradley,32,6,26,0.188
+Brigham Young University,40.2518435,-111.6493156,86-c,0.86,Brigham Young NCAA,33,16,17,0.485
+Brown University,41.8267718,-71.4025482,100-d,1,Brown,27,16,11,0.593
+Bryant University,41.9220919,-71.5377265,100-c,1,Bryant,30,15,15,0.5
+Bucknell University,40.9547722,-76.8850759,100-c,1,Bucknell,31,13,18,0.419
+Butler University,39.8399145,-86.1726021,88-d,0.88,Butler,32,15,17,0.469
+California Baptist University,33.9288906,-117.4259155,100-b,1,California Baptist,32,28,4,0.875
+California Polytechnic State University,35.3050053,-120.6624942,88-d,0.88,Cal Poly,31,17,14,0.548
+California State University Bakersfield,35.3486641,-119.1033448,100-c,1,Cal State Bakersfield,29,8,21,0.276
+California State University Fresno,36.8136777,-119.7461767,86-c,0.86,Fresno State,33,15,18,0.455
+California State University Fullerton,33.8823476,-117.8851033,82-c,0.82,Cal State Fullerton,31,10,21,0.323
+California State University Northridge,34.2406756,-118.5300196,93-c,0.93,Cal State Northridge,30,3,27,0.1
+California State University Sacramento,38.560824,-121.423993,82-c,0.82,Sacramento State,31,6,25,0.194
+Campbell University,35.408157,-78.7397718,100-c,1,Campbell,31,17,14,0.548
+Canisius University,42.9237929,-78.8550954,100-c,1,Canisius,31,17,14,0.548
+Central Connecticut State University,41.6931245,-72.7638508,93-c,0.93,Central Connecticut State,30,9,21,0.3
+Central Michigan University,43.5822124,-84.7762574,100-c,1,Central Michigan,28,6,22,0.214
+Charleston Southern University,32.9821829,-80.0706554,81-d,0.81,Charleston Southern,30,11,19,0.367
+Chicago State University,41.7179751,-87.6094388,40-b,0.4,Chicago State,27,1,26,0.037
+Clemson University,34.6749926,-82.8406184,95-d,0.95,Clemson NCAA,31,12,19,0.387
+Cleveland State University,41.5027643,-81.674423,100-c,1,Cleveland State,35,29,6,0.829
+Coastal Carolina University,33.7961194,-79.0136958,87-c,0.87,Coastal Carolina,33,12,21,0.364
+Colgate University,42.8155894,-75.5407355,100-c,1,Colgate NCAA,34,20,14,0.588
+College of Charleston (South Carolina),32.7834441,-79.9370018,82-c,0.82,College of Charleston NCAA,32,22,10,0.688
+College of the Holy Cross,42.2392391,-71.8079608,100-c,1,Holy Cross,34,21,13,0.618
+Colorado State University,40.5729432,-105.0848391,100-b,1,Colorado State NCAA,31,20,11,0.645
+Columbia University-Barnard College,40.8095133,-73.9633969,100-d,1,Columbia,30,23,7,0.767
+Coppin State University,39.3126011,-76.6579973,83-b,0.83,Coppin State,30,12,18,0.4
+Cornell University,42.4534492,-76.4735027,94-d,0.94,Cornell,26,7,19,0.269
+Creighton University,41.2655521,-95.9462807,100-c,1,Creighton NCAA,32,26,6,0.813
+Dartmouth College,43.7044406,-72.2886934,100-d,1,Dartmouth,26,7,19,0.269
+Davidson College,35.5015528,-80.8423248,100-c,1,Davidson,26,18,8,0.692
+Delaware State University,39.1859284,-75.543368,83-e,0.83,Delaware State,28,8,20,0.286
+DePaul University,41.9241868,-87.6541655,100-c,1,DePaul,32,12,20,0.375
+Drake University,41.6030995,-93.6546481,100-c,1,Drake NCAA,35,29,6,0.829
+Drexel University,39.9566127,-75.1899441,100-c,1,Drexel,34,19,15,0.559
+Duke University,36.0014258,-78.9382286,92-c,0.92,Duke NCAA,34,22,12,0.647
+Duquesne University,40.4369485,-79.9902576,100-c,1,Duquesne NCAA,34,21,13,0.618
+East Carolina University,35.6068806,-77.3665364,93-c,0.93,East Carolina,33,19,14,0.576
+East Tennessee State University,36.3023954,-82.369853,80-c,0.8,East Tennessee State,30,18,12,0.6
+Eastern Illinois University,39.4835612,-88.1752184,100-b,1,Eastern Illinois,33,15,18,0.455
+Eastern Kentucky University,37.7386943,-84.2999687,100-c,1,Eastern Kentucky,34,22,12,0.647
+Eastern Michigan University,42.2506803,-83.624089,100-c,1,Eastern Michigan,29,7,22,0.241
+Eastern Washington University,47.4906616,-117.5847877,93-c,0.93,Eastern Washington,35,29,6,0.829
+Elon University,36.1028244,-79.5023649,100-b,1,Elon,32,11,21,0.344
+Fairfield University,41.1598949,-73.2575513,100-c,1,Fairfield,33,31,2,0.939
+Florida A&M University,30.4227211,-84.2877093,64-c,0.64,Florida A&M,30,9,21,0.3
+Florida Atlantic University,26.3737473,-80.1019023,92-c,0.92,Florida Atlantic NCAA,30,11,19,0.367
+Florida Gulf Coast University,26.4626967,-81.7800748,100-c,1,Florida Gulf Coast,34,29,5,0.853
+Florida International University,25.7562465,-80.3755401,93-c,0.93,Florida International,33,21,12,0.636
+Florida State University,30.442087,-84.2979579,90-b,0.9,Florida State,34,23,11,0.676
+Fordham University,40.8614567,-73.8852771,85-c,0.85,Fordham,29,12,17,0.414
+Furman University,34.9274688,-82.4400666,100-b,1,Furman,31,15,16,0.484
+Gardner-Webb University,35.2475249,-81.6706979,92-c,0.92,Gardner-Webb,30,6,24,0.2
+George Mason University,38.8314094,-77.311153,100-c,1,George Mason,31,23,8,0.742
+George Washington University,38.8997145,-77.0485992,92-c,0.92,George Washington,31,13,18,0.419
+Georgetown University,38.9076089,-77.0722585,100-b,1,Georgetown,35,23,12,0.657
+Georgia Institute of Technology,33.7779791,-84.3979638,100-c,1,Georgia Tech,33,17,16,0.515
+Georgia Southern University,32.4206845,-81.7869734,93-c,0.93,Georgia Southern,33,15,18,0.455
+Georgia State University,33.753068,-84.3852819,77-c,0.77,Georgia State,30,15,15,0.5
+Gonzaga University,47.6658548,-117.4021153,93-c,0.93,Gonzaga NCAA,36,32,4,0.889
+Grambling State University,32.5197213,-92.7179736,89-d,0.89,Grambling NCAA,33,23,10,0.697
+Grand Canyon University,33.5100339,-112.1288588,78-b,0.78,Grand Canyon NCAA,32,24,8,0.75
+Hampton University,37.0228392,-76.3343603,70-b,0.7,Hampton,29,3,26,0.103
+Harvard University,42.3744368,-71.1182488,100-d,1,Harvard,28,16,12,0.571
+High Point University,35.972171,-79.9962549,100-c,1,High Point,32,20,12,0.625
+Hofstra University,40.7168988,-73.5990378,100-c,1,Hofstra,32,11,21,0.344
+Houston Christian University,29.6946466,-95.5162157,100-d,1,Houston Christian,29,6,23,0.207
+Howard University,38.9226843,-77.0194377,76-d,0.76,Howard NCAA,31,15,16,0.484
+Idaho State University,42.8627836,-112.429762,100-c,1,Idaho State,30,11,19,0.367
+Illinois State University,40.5121009,-88.994763,91-c,0.91,Illinois State,34,22,12,0.647
+Indiana State University,39.4713985,-87.4082807,69-d,0.69,Indiana State,32,11,21,0.344
+Indiana University Bloomington,39.1682449,-86.5230073,100-c,1,Indiana,32,26,6,0.813
+Indiana University Indianapolis,39.773929,-86.1762606,100-c,1,IU Indy,30,7,23,0.233
+Iona University,40.9270597,-73.7863494,83-c,0.83,Iona,30,11,19,0.367
+Iowa State University,42.0266573,-93.6464516,100-c,1,Iowa State NCAA,33,21,12,0.636
+Jackson State University,32.2968882,-90.2063989,95-d,0.95,Jackson State,33,26,7,0.788
+Jacksonville State University,33.8230953,-85.7681921,94-d,0.94,Jacksonville State,29,12,17,0.414
+Jacksonville University,30.3529114,-81.606213,89-d,0.89,Jacksonville,31,11,20,0.355
+James Madison University,38.435092,-78.8697548,92-c,0.92,James Madison NCAA,35,23,12,0.657
+Kansas State University,39.1974437,-96.5847249,82-c,0.82,Kansas State,34,26,8,0.765
+Kennesaw State University,34.0380784,-84.5815717,83-c,0.83,Kennesaw State,30,11,19,0.367
+Kent State University,41.1438917,-81.3365012,92-c,0.92,Kent State,32,21,11,0.656
+La Salle University,40.0390398,-75.1558184,100-c,1,La Salle,30,8,22,0.267
+Lafayette College,40.6984713,-75.2101079,100-c,1,Lafayette,30,10,20,0.333
+Lamar University,30.0415251,-94.0754905,93-c,0.93,Lamar,31,24,7,0.774
+Lehigh University,40.6054003,-75.3771764,100-c,1,Lehigh,30,17,13,0.567
+Liberty University,37.3520604,-79.1753844,100-c,1,Liberty,34,18,16,0.529
+Lipscomb University,36.1046846,-86.7988728,100-d,1,Lipscomb,30,17,13,0.567
+Long Beach State University,33.7838235,-118.1140904,91-c,0.91,Long Beach State NCAA,33,15,18,0.455
+Long Island University,,,91-c,0.91,Long Island University,30,8,22,0.267
+Longwood University,37.2995844,-78.3963343,100-c,1,Longwood NCAA,30,9,21,0.3
+Louisiana State University,30.4102406,-91.1857059,100-d,1,Louisiana State,37,31,6,0.838
+Louisiana Tech University,32.5299582,-92.6522174,85-c,0.85,Louisiana Tech,33,14,19,0.424
+Loyola Marymount University,33.9691953,-118.4188984,100-c,1,Loyola Marymount,30,11,19,0.367
+Loyola University Chicago,41.9983568,-87.6569374,100-c,1,Loyola (IL),31,15,16,0.484
+Loyola University Maryland,39.3484521,-76.6164636,100-c,1,Loyola (MD),31,16,15,0.516
+Manhattan University,40.889733,-73.9028372,100-c,1,Manhattan,30,18,12,0.6
+Marist University,41.7231052,-73.9344876,100-c,1,Marist,31,6,25,0.194
+Marquette University,43.0386955,-87.931014,100-c,1,Marquette NCAA,32,23,9,0.719
+Marshall University,38.4236597,-82.4247198,92-c,0.92,Marshall,33,26,7,0.788
+McNeese State University,30.1776851,-93.2152198,81-d,0.81,McNeese State NCAA,31,6,25,0.194
+Mercer University,32.8284878,-83.6496991,100-c,1,Mercer,32,15,17,0.469
+Merrimack College,42.6673814,-71.1234527,90-b,0.9,Merrimack,31,12,19,0.387
+Miami University (Ohio),39.5087485,-84.7344915,100-c,1,Miami (OH),29,9,20,0.31
+Michigan State University,42.7250725,-84.4790827,93-c,0.93,Michigan State NCAA,31,22,9,0.71
+Middle Tennessee State University,35.8486229,-86.3669155,83-c,0.83,Middle Tennessee,35,30,5,0.857
+Mississippi State University,33.4576975,-88.7941585,93-c,0.93,Mississippi State NCAA,35,23,12,0.657
+Mississippi Valley State University,33.5126982,-90.3416715,76-d,0.76,Mississippi Valley State,31,4,27,0.129
+Missouri State University,37.2005546,-93.2806806,92-c,0.92,Missouri State,33,23,10,0.697
+Monmouth University,40.2802758,-74.0054114,100-c,1,Monmouth,32,22,10,0.688
+Montana State University-Bozeman,45.6673524,-111.0546211,100-c,1,Montana State NCAA,33,17,16,0.515
+Morehead State University,38.18943,-83.4310035,78-d,0.78,Morehead State NCAA,30,15,15,0.5
+Morgan State University,39.3437959,-76.5843847,87-e,0.87,Morgan State,30,8,22,0.267
+Mount St. Mary's University,39.6799914,-77.3486971,92-c,0.92,Mount St. Mary's,31,14,17,0.452
+Murray State University,36.616251,-88.3209372,89-b,0.89,Murray State,32,20,12,0.625
+New Jersey Institute of Technology,40.7424259,-74.1784006,100-c,1,NJIT,30,12,18,0.4
+New Mexico State University,32.2792887,-106.7491391,88-d,0.88,New Mexico State,31,13,18,0.419
+Niagara University,43.1369816,-79.0349955,100-c,1,Niagara,35,21,14,0.6
+Nicholls State University,,,75-c,0.75,Nicholls State,32,14,18,0.438
+Norfolk State University,,,79-d,0.79,Norfolk State,33,27,6,0.818
+North Carolina A&T State University,,,87-c,0.87,North Carolina A&T,34,22,12,0.647
+North Carolina Central University,,,94-d,0.94,North Carolina Central,31,16,15,0.516
+North Dakota State University,,,100-b,1,North Dakota State,34,22,12,0.647
+Northeastern University,,,100-c,1,Northeastern,27,10,17,0.37
+Northern Arizona University,,,79-c,0.79,Northern Arizona,35,25,10,0.714
+Northern Illinois University,,,93-c,0.93,Northern Illinois,31,15,16,0.484
+Northern Kentucky University,,,100-b,1,Northern Kentucky,31,11,20,0.355
+Northwestern State University,,,94-d,0.94,Northwestern State,30,11,19,0.367
+Northwestern University,,,100-c,1,Northwestern NCAA,30,9,21,0.3
+Oakland University,,,88-d,0.88,Oakland NCAA,29,12,17,0.414
+Ohio University,,,100-b,1,Ohio,30,11,19,0.367
+Oklahoma State University,,,88-d,0.88,Oklahoma State,30,14,16,0.467
+Old Dominion University,,,100-b,1,Old Dominion,32,22,10,0.688
+Oral Roberts University,,,90-b,0.9,Oral Roberts,32,21,11,0.656
+Oregon State University,,,90-b,0.9,Oregon State,35,27,8,0.771
+Pennsylvania State University,,,100-b,1,Penn State,35,22,13,0.629
+Pepperdine University,,,88-d,0.88,Pepperdine,30,5,25,0.167
+Portland State University,,,92-c,0.92,Portland State,31,8,23,0.258
+Prairie View A&M University,,,67-d,0.67,Prairie View,29,11,18,0.379
+Presbyterian College,,,100-c,1,Presbyterian,36,21,15,0.583
+Princeton University,,,100-d,1,Princeton,30,25,5,0.833
+Providence College,,,100-c,1,Providence,34,13,21,0.382
+Purdue University,,,86-c,0.86,Purdue NCAA,34,15,19,0.441
+Purdue University Fort Wayne,,,80-c,0.8,Purdue Fort Wayne,36,23,13,0.639
+Quinnipiac University,,,100-c,1,Quinnipiac,31,13,18,0.419
+Radford University,,,100-c,1,Radford,33,15,18,0.455
+Rice University,,,100-c,1,Rice,34,19,15,0.559
+Rider University,,,100-c,1,Rider,31,10,21,0.323
+Robert Morris University,,,100-c,1,Robert Morris,30,6,24,0.2
+Rutgers The State University of New Jersey New Brunswick,,,100-c,1,Rutgers,32,8,24,0.25
+Sacred Heart University,,,100-c,1,Sacred Heart,34,24,10,0.706
+Saint Francis University,,,100-b,1,Saint Francis (PA),30,5,25,0.167
+Saint Joseph's University,,,100-c,1,Saint Joseph's,34,28,6,0.824
+Saint Louis University,,,100-c,1,Saint Louis,40,22,18,0.55
+Saint Mary's College of California,,,90-b,0.9,Saint Mary's (CA) NCAA,31,13,18,0.419
+Saint Peter's University,,,100-b,1,Saint Peter's NCAA,30,7,23,0.233
+Sam Houston State University,,,89-d,0.89,Sam Houston,29,7,22,0.241
+Samford University,,,100-c,1,Samford NCAA,30,14,16,0.467
+San Diego State University,,,100-c,1,San Diego,31,9,22,0.29
+San Jose State University,,,100-c,1,San Jose State,31,7,24,0.226
+Santa Clara University,,,93-c,0.93,Santa Clara,34,25,9,0.735
+Seattle University,,,100-c,1,Seattle,29,6,23,0.207
+Seton Hall University,,,100-b,1,Seton Hall,32,17,15,0.531
+Siena College,,,100-c,1,Siena,30,18,12,0.6
+South Carolina State University,,,100-c,1,South Carolina State,30,2,28,0.067
+South Dakota State University,,,100-c,1,South Dakota State NCAA,33,27,6,0.818
+Southeast Missouri State University,,,100-d,1,Southeast Missouri State,29,9,20,0.31
+Southeastern Louisiana University,,,100-c,1,Southeastern Louisiana,31,19,12,0.613
+Southern Illinois University at Carbondale,,,93-c,0.93,Southern Illinois,31,11,20,0.355
+Southern Illinois University Edwardsville,,,93-c,0.93,SIU Edwardsville,31,5,26,0.161
+Southern Methodist University,,,83-c,0.83,Southern Methodist,30,14,16,0.467
+Southern University Baton Rouge,,,80-c,0.8,Southern,30,15,15,0.5
+Southern Utah University,,,75-b,0.75,Southern Utah,30,8,22,0.267
+St. Bonaventure University,,,100-c,1,St. Bonaventure,30,4,26,0.133
+St. John's University (New York),,,91-c,0.91,St. John's (NY),33,18,15,0.545
+Stanford University,,,100-c,1,Stanford,36,30,6,0.833
+Stephen F. Austin State University,,,86-c,0.86,Stephen F. Austin,34,22,12,0.647
+Stetson University,,,93-c,0.93,Stetson NCAA,32,17,15,0.531
+Stony Brook University,,,100-d,1,Stony Brook,33,28,5,0.848
+Syracuse University,,,100-c,1,Syracuse,32,24,8,0.75
+Temple University,,,89-b,0.89,Temple,32,20,12,0.625
+Tennessee State University,,,85-c,0.85,Tennessee State,30,11,19,0.367
+Tennessee Technological University,,,100-c,1,Tennessee Tech,31,16,15,0.516
+Texas A&M University College Station,,,88-d,0.88,Texas A&M NCAA,32,19,13,0.594
+Texas A&M University-Corpus Christi,,,75-c,0.75,Texas A&M-Corpus Christi,32,23,9,0.719
+Texas Christian University,,,100-c,1,TCU NCAA,33,21,12,0.636
+Texas Southern University,,,82-d,0.82,Texas Southern,29,7,22,0.241
+Texas State University,,,85-c,0.85,Texas State,32,14,18,0.438
+Texas Tech University,,,94-d,0.94,Texas Tech NCAA,33,17,16,0.515
+The Ohio State University,,,88-b,0.88,Ohio State,32,26,6,0.813
+The University of North Carolina at Charlotte,,,79-c,0.79,Charlotte,31,16,15,0.516
+The University of North Carolina at Greensboro,,,87-c,0.87,UNC Greensboro,33,21,12,0.636
+The University of Southern Mississippi,,,91-c,0.91,Southern Mississippi,34,20,14,0.588
+The University of Texas Rio Grande Valley,,,89-d,0.89,Texas-Rio Grande Valley,29,6,23,0.207
+The University of Tulsa,,,100-c,1,Tulsa,35,25,10,0.714
+Towson University,,,100-c,1,Towson,31,20,11,0.645
+Troy University,,,95-d,0.95,Troy,34,22,12,0.647
+Tulane University,,,100-c,1,Tulane,32,12,20,0.375
+U.S. Air Force Academy,,,100-e,1,Air Force,32,15,17,0.469
+U.S. Military Academy,,,89-d,0.89,Army,29,12,17,0.414
+U.S. Naval Academy,,,84-d,0.84,Navy,31,14,17,0.452
+University at Albany,,,75-c,0.75,Albany (NY),32,25,7,0.781
+University at Buffalo the State University of New York,,,100-c,1,Buffalo,33,19,14,0.576
+University of Akron,,,92-c,0.92,Akron NCAA,29,11,18,0.379
+University of Alabama,,,88-d,0.88,Alabama NCAA,34,24,10,0.706
+University of Alabama at Birmingham,,,100-c,1,UAB NCAA,32,18,14,0.563
+University of Arizona,,,100-c,1,Arizona NCAA,34,18,16,0.529
+University of Arkansas at Little Rock,,,93-c,0.93,Little Rock,30,12,18,0.4
+University of Arkansas Fayetteville,,,88-d,0.88,Arkansas,33,18,15,0.545
+University of Arkansas Pine Bluff,,,81-d,0.81,Arkansas-Pine Bluff,33,17,16,0.515
+University of California Berkeley,,,92-c,0.92,California,34,19,15,0.559
+University of California Davis,,,94-d,0.94,UC Davis,34,20,14,0.588
+University of California Irvine,,,86-c,0.86,UC Irvine,32,23,9,0.719
+University of California Los Angeles,,,100-c,1,UCLA,34,27,7,0.794
+University of California Riverside,,,100-b,1,UC Riverside,32,18,14,0.563
+University of California Santa Barbara,,,92-c,0.92,UC Santa Barbara,31,16,15,0.516
+University of Central Arkansas,,,93-c,0.93,Central Arkansas,33,21,12,0.636
+University of Central Florida,,,94-d,0.94,UCF,29,12,17,0.414
+University of Cincinnati,,,92-c,0.92,Cincinnati,32,14,18,0.438
+University of Colorado Boulder,,,100-b,1,Colorado NCAA,34,24,10,0.706
+University of Connecticut,,,100-b,1,Connecticut NCAA,39,33,6,0.846
+University of Dayton,,,100-c,1,Dayton NCAA,31,12,19,0.387
+University of Delaware,,,88-d,0.88,Delaware,31,11,20,0.355
+University of Denver,,,87-c,0.87,Denver,30,8,22,0.267
+University of Detroit Mercy,,,92-c,0.92,Detroit Mercy,33,17,16,0.515
+University of Evansville,,,93-c,0.93,Evansville,32,4,28,0.125
+University of Florida,,,100-c,1,Florida NCAA,32,16,16,0.5
+University of Georgia,,,93-c,0.93,Georgia,30,12,18,0.4
+University of Hawaii Manoa,,,87-c,0.87,Hawaii,31,20,11,0.645
+University of Houston,,,81-d,0.81,Houston NCAA,30,14,16,0.467
+University of Idaho,,,100-c,1,Idaho,31,15,16,0.484
+University of Illinois Chicago,,,92-c,0.92,Illinois-Chicago,34,18,16,0.529
+University of Iowa,,,85-c,0.85,Iowa,39,34,5,0.872
+University of Kansas,,,94-d,0.94,Kansas NCAA,33,20,13,0.606
+University of Kentucky,,,100-c,1,Kentucky NCAA,32,12,20,0.375
+University of Louisiana at Lafayette,,,100-c,1,Louisiana,31,17,14,0.548
+University of Louisiana Monroe,,,80-c,0.8,Louisiana-Monroe,35,21,14,0.6
+University of Louisville,,,100-b,1,Louisville,34,24,10,0.706
+University of Maine,,,92-c,0.92,Maine,34,24,10,0.706
+University of Maryland Baltimore County,,,92-c,0.92,Maryland-Baltimore County,29,10,19,0.345
+University of Maryland College Park,,,100-c,1,Maryland,33,19,14,0.576
+University of Maryland Eastern Shore,,,92-c,0.92,Maryland-Eastern Shore,30,15,15,0.5
+University of Massachusetts Amherst,,,100-b,1,Massachusetts,32,5,27,0.156
+University of Massachusetts Lowell,,,93-c,0.93,Massachusetts-Lowell,29,4,25,0.138
+University of Memphis,,,100-c,1,Memphis,30,13,17,0.433
+University of Miami (Florida),,,100-c,1,Miami (FL),31,19,12,0.613
+University of Michigan,,,100-c,1,Michigan,34,20,14,0.588
+University of Minnesota Twin Cities,,,100-c,1,Minnesota,36,20,16,0.556
+University of Mississippi,,,100-b,1,Mississippi,33,24,9,0.727
+University of Missouri Columbia,,,100-c,1,Missouri,30,11,19,0.367
+University of Missouri-Kansas City,,,93-c,0.93,Kansas City,32,12,20,0.375
+University of Montana,,,91-c,0.91,Montana,33,23,10,0.697
+University of Nebraska at Omaha,,,93-c,0.93,Omaha,31,8,23,0.258
+University of Nebraska-Lincoln,,,100-c,1,Nebraska NCAA,35,23,12,0.657
+University of Nevada Las Vegas,,,87-c,0.87,Nevada-Las Vegas,33,30,3,0.909
+University of Nevada Reno,,,89-b,0.89,Nevada NCAA,32,16,16,0.5
+University of New Hampshire,,,100-c,1,New Hampshire,29,9,20,0.31
+University of New Mexico,,,83-c,0.83,New Mexico NCAA,32,21,11,0.656
+University of New Orleans,,,83-d,0.83,New Orleans,30,11,19,0.367
+University of North Alabama,,,85-d,0.85,North Alabama,30,12,18,0.4
+University of North Carolina Asheville,,,100-c,1,UNC Asheville,31,11,20,0.355
+University of North Carolina Chapel Hill,,,100-c,1,North Carolina NCAA,33,20,13,0.606
+University of North Carolina Wilmington,,,93-c,0.93,UNC Wilmington,30,5,25,0.167
+University of North Dakota,,,93-c,0.93,North Dakota,30,9,21,0.3
+University of North Florida,,,94-d,0.94,North Florida,30,9,21,0.3
+University of North Texas,,,95-d,0.95,North Texas,32,23,9,0.719
+University of Northern Colorado,,,100-b,1,Northern Colorado,31,15,16,0.484
+University of Northern Iowa,,,100-c,1,Northern Iowa,32,16,16,0.5
+University of Notre Dame,,,100-b,1,Notre Dame,35,28,7,0.8
+University of Oklahoma,,,100-b,1,Oklahoma,33,23,10,0.697
+University of Oregon,,,100-b,1,Oregon NCAA,32,11,21,0.344
+University of Pennsylvania,,,100-d,1,Pennsylvania,28,15,13,0.536
+University of Pittsburgh,,,100-c,1,Pittsburgh,32,8,24,0.25
+University of Portland,,,100-c,1,Portland,34,21,13,0.618
+University of Rhode Island,,,95-d,0.95,Rhode Island,35,21,14,0.6
+University of Richmond,,,92-c,0.92,Richmond,35,29,6,0.829
+University of San Diego,,,100-c,1,San Diego,31,9,22,0.29
+University of San Francisco,,,100-c,1,San Francisco,30,14,16,0.467
+University of South Alabama,,,79-c,0.79,South Alabama,32,9,23,0.281
+University of South Carolina Columbia,,,100-b,1,South Carolina NCAA,38,38,0,1
+University of South Carolina Upstate,,,87-c,0.87,South Carolina Upstate,32,16,16,0.5
+University of South Dakota,,,100-c,1,South Dakota,36,23,13,0.639
+University of South Florida,,,92-c,0.92,South Florida,33,19,14,0.576
+University of Southern California,,,100-c,1,Southern California,35,29,6,0.829
+University of Tennessee at Chattanooga,,,91-c,0.91,Chattanooga,33,28,5,0.848
+University of Tennessee at Martin,,,100-c,1,Tennessee-Martin,33,16,17,0.485
+University of Tennessee Knoxville,,,100-b,1,Tennessee NCAA,33,20,13,0.606
+University of Texas at Arlington,,,100-c,1,UT Arlington,33,17,16,0.515
+University of Texas at Austin,,,85-c,0.85,Texas NCAA,38,33,5,0.868
+University of Texas at El Paso,,,92-c,0.92,UTEP,31,12,19,0.387
+University of Texas at San Antonio,,,92-c,0.92,UTSA,33,18,15,0.545
+University of the Incarnate Word,,,92-c,0.92,Incarnate Word,30,19,11,0.633
+University of the Pacific,,,93-c,0.93,Pacific,34,19,15,0.559
+University of Toledo,,,100-d,1,Toledo,34,28,6,0.824
+University of Vermont,,,100-b,1,Vermont NCAA,37,25,12,0.676
+University of Virginia,,,100-c,1,Virginia NCAA,32,16,16,0.5
+University of Washington,,,100-b,1,Washington,31,16,15,0.516
+University of Wisconsin-Green Bay,,,100-c,1,Green Bay,34,27,7,0.794
+University of Wisconsin-Madison,,,100-b,1,Wisconsin NCAA,32,15,17,0.469
+University of Wisconsin-Milwaukee,,,100-c,1,Milwaukee,32,16,16,0.5
+University of Wyoming,,,100-c,1,Wyoming,33,18,15,0.545
+Utah State University,,,80-b,0.8,Utah State NCAA,30,5,25,0.167
+Utah Valley University,,,91-c,0.91,Utah Valley,29,10,19,0.345
+Valparaiso University,,,100-c,1,Valparaiso,30,5,25,0.167
+Vanderbilt University,,,100-b,1,Vanderbilt,33,23,10,0.697
+Villanova University,,,100-c,1,Villanova,35,22,13,0.629
+Virginia Commonwealth University,,,92-c,0.92,Virginia Commonwealth,32,26,6,0.813
+Virginia Polytechnic Institute and State University,,,92-c,0.92,Virginia Tech,33,25,8,0.758
+Wagner College,,,100-b,1,Wagner NCAA,28,7,21,0.25
+Wake Forest University,,,100-c,1,Wake Forest,32,7,25,0.219
+Washington State University,,,93-c,0.93,Washington State NCAA,36,21,15,0.583
+Weber State University,,,85-c,0.85,Weber State,33,8,25,0.242
+West Virginia University,,,100-c,1,West Virginia,33,25,8,0.758
+Western Carolina University,,,100-c,1,Western Carolina,30,6,24,0.2
+Western Illinois University,,,89-b,0.89,Western Illinois,30,18,12,0.6
+Western Kentucky University,,,92-c,0.92,Western Kentucky NCAA,32,15,17,0.469
+Western Michigan University,,,93-c,0.93,Western Michigan,30,12,18,0.4
+Wichita State University,,,92-c,0.92,Wichita State,32,10,22,0.313
+William & Mary,,,100-c,1,William & Mary,29,15,14,0.517
+Winthrop University,,,87-c,0.87,Winthrop,30,14,16,0.467
+Wofford College,,,73-c,0.73,Wofford,30,17,13,0.567
+Wright State University,,,100-c,1,Wright State,33,18,15,0.545
+Xavier University,,,85-c,0.85,Xavier,28,1,27,0.036
+Yale University,,,100-d,1,Yale NCAA,27,8,19,0.296
+Youngstown State University,,,92-c,0.92,Youngstown State,32,14,18,0.438
